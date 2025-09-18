@@ -1,0 +1,56 @@
+@media (max-width:500px){
+    body{
+        /*width: 375px;*/
+    }
+    .container {
+        padding: 0 19px;
+    }
+    header{
+        /*background-image: url("../img/image_23.png"), url("../img/group8_bg_375.png") ;*/
+        background-image: url("../img/main_screen.png") ;
+        background-position: -500px 0px;
+        
+        
+    }
+    .header_logo__text{
+        width: 147px;
+        font-size: 14.42px;
+    }
+    .header_content {
+        position: relative;
+        margin-top: 40px;
+        width: 335px;
+        color:#313131;
+    }
+    .header_content__title {
+        font-size: 36px;
+    }
+    .header_content__text {
+        text-align: left;
+        line-height: 1.3;
+    }
+    .header_content__buttons {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .btn {
+        width: 100%;
+        height: 47px;
+        border-radius: 66px;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .btn_primary {
+        padding: 0 20px;
+    }
+    .btn_secondary {
+        padding: 0 20px;
+        background-color: #fff;
+        opacity: 0.9;
+        /*border: 2px solid #1F1F1F;*/
+        border:none;
+    }
+
+}
