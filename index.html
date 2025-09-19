@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toros: Carpeta de trabajos</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="script/script.js" defer></script>
+    <script type="module" src="script/script.js" defer></script>
 </head>
 <body>
     <nav class="nav">
         <div class="container">
             <div class="row menu">
-                <div>Vitaly 'Toros' Bykov</div>
-                <div class="row gap20">
-                    <div><a href="#trabajos">Mis trabajos</a></div>
-                    <div><a href="#info">Información</a></div>
+                <div data-translate="menu_alias">Vitaly 'Toros' Bykov</div>
+                <div class="row menu_part_right gap20">
+                    <div><a href="#trabajos" data-translate="menu_work">Mis trabajos</a></div>
+                    <div><a href="#info" data-translate="menu_info">Información</a></div>
+                    <div class="menu_lang_select">
+                        <img class="estandarte_espana pointer" data-lang="es" src="/img/flag_es.svg" alt="ES" title="Cambiar al RU">
+                        <img class="estandarte_rusia pointer hidden" data-lang="ru" src="/img/flag_ru.svg" alt="RU" title="Переключить на ES">
+                    </div>
                 </div>
             </div>
         </div>
@@ -22,7 +26,7 @@
     <section class="about">
         <div class="container">
             <div class="row space_between">
-                <div class="about_item about_text">
+                <div class="about_item about_text" data-translate="about_me">
                     <p>¡Hola! Soy Vitali.</p>
                     <p>Me dedico al desarrollo frontend y a la maquetación de páginas web a partir de diseños (no soy diseñador).</p>
                     <p>Mi apellido "Býkov" significa "Toro", por eso tengo este alias y avatar :)</p>
@@ -36,19 +40,19 @@
     </section>
     <section class="projects">
         <div class="container">
-            <div class="projects_header" id="trabajos">
+            <div class="projects_header" id="trabajos" data-translate="projects_header">
                 trabajos
             </div>
             <div class="projects_list">
                 <div class="projects_item">
                     <div class="projects_item_img">
-                        <a href="/projects/ostap/"><img src="img/new_vasyuki.jpg" alt="New Vasyuki" title="New Vasyuki"></a>
+                        <a href="/projects/ostap/" target="_blank"><img src="img/new_vasyuki.jpg" alt="New Vasyuki" title="New Vasyuki"></a>
                     </div>
                     <div class="projects_item_description">
                         <div class="projects_item_name">
                             <details>
-                                <summary>Las doce sillas</summary>
-                                <div class="text-small projects_item_details">
+                                <summary data-translate="12_chairs">Las doce sillas</summary>
+                                <div class="text-small projects_item_details" data-translate="12_chairs_details">
                                     Esta página está inspirada en la novela <a target="_blank" href="https://es.wikipedia.org/wiki/Las_doce_sillas_(novela)">"Las doce sillas"</a>.
                                     Aquí podemos ver la publicidad del famoso torneo de ajedrez con la participación de Ostap Bender y renombrados grandes maestros mundiales.
                                     El libro fue escrito a principios del siglo XX y narra la búsqueda de los diamantes de una difunta señora. Es una obra satírica y de aventuras.
@@ -63,21 +67,21 @@
                 <div class="projects_item">
                     <div class="projects_item_img white_blur"><img src="img/clear_item.jpg" alt="próximamente"></div>
                     <div class="projects_item_description">
-                        <div class="projects_item_name">Próximamente...</div>
+                        <div class="projects_item_name" data-translate="proxima">Próximamente...</div>
                     </div>
                 </div>
 
                 <div class="projects_item">
                     <div class="projects_item_img white_blur"><img src="img/clear_item.jpg" alt="próximamente"></div>
                     <div class="projects_item_description">
-                        <div class="projects_item_name">Próximamente...</div>
+                        <div class="projects_item_name" data-translate="proxima">Próximamente...</div>
                     </div>
                 </div>
 
                 <div class="projects_item">
                     <div class="projects_item_img white_blur"><img src="img/clear_item.jpg" alt="próximamente"></div>
                     <div class="projects_item_description">
-                        <div class="projects_item_name">Próximamente...</div>
+                        <div class="projects_item_name" data-translate="proxima">Próximamente...</div>
                     </div>
                 </div>
 
@@ -89,7 +93,7 @@
             <div class="row footer_info" id="info">
                 <div class="footer_col_1">
                     <div>&copy;TOROS</div>   
-                    <div class="mute text-small"><a href="https://www.figma.com/design/gLuH8iC35eVSksymw83D1I/Dwel?node-id=0-1&p=f&t=0S6EVxmfkJFI0aWT-0">Maquetado a partir de Figma</a></div>
+                    <div class="mute text-small"><a data-translate="footer_figma" href="https://www.figma.com/design/gLuH8iC35eVSksymw83D1I/Dwel?node-id=0-1&p=f&t=0S6EVxmfkJFI0aWT-0">Maquetado a partir de Figma</a></div>
                 </div>
                 <div>
                     <a href="https://t.me/npubudehue" class="mess_link" target="_blank">
