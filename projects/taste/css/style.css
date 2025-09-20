@@ -1,0 +1,240 @@
+@import url(reset.css);
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.cormorant-infant-<uniquifier> {
+  font-family: "Cormorant Infant", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+
+
+
+/* Base */
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.container {
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.btn {
+    padding: 20px 57px;
+    height: 73px;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+}
+
+.btn_bordered {
+    border: #E1B168 2px solid;
+}
+
+.btn_white { 
+    background-color: #fff;
+}
+.btn_orange { 
+    background-color: #E1B168;
+}
+.btn_text_white {
+    color: #fff;
+}
+.btn_text_black {
+    color: #000;
+}
+.btn_text_orange {
+    color: #E1B168;
+}
+
+.grey_line {
+    border-top: #5C6168 1px solid;
+}
+
+/* HEADER */
+
+.header_container {
+    background-color: #292E36;
+}
+.header {
+
+    
+}
+.header_logo_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 49px;
+}
+
+
+/* NAV */
+
+.nav {
+    
+}
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0;
+}
+.nav_menu__list {
+    display: flex;
+    gap: 60px;
+}
+.menu_list__item {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color:#fff;
+}
+.menu_social {
+    display: flex;
+    gap: 20px;
+}
+a:hover {
+    color:#E1B168
+}
+
+
+/* Welcome */
+.welcome_container {
+    padding-left:40px;
+    margin: 0 auto;
+    width: 1440px;
+}
+.welcome {
+    
+}
+.welcome_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome_row__left {
+    width: 675px;
+}
+.welcome_header {
+    font-family: "Cormorant Infant", serif;
+    font-size: 100px;
+    color: #fff;
+    line-height: 110px;
+    letter-spacing: 0.2px;
+    margin-bottom: 26px;
+}
+.welcome_text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color:#fff;
+    margin-bottom: 35px;
+    width: 616px;
+}
+
+.welcome_row__right {
+    display: grid;
+    grid-template-columns: 30px 655px 30px;
+    grid-template-rows: 30px auto;
+}
+.grey_column {
+    background-color: #fff;
+    opacity: 0.1;
+}
+.welcome_img {
+    height: 740px;
+    margin: 30px 30px 0 30px;
+    background-image: url("../img/welcome_img.png");
+    background-repeat: no-repeat;
+}
+.welcome_pattern {
+    
+}
+
+
+/* ABOUT */
+.about {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.about_row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.about_elem {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 443px;
+}
+.elem_header {
+    font-family: "Cormorant Infant", serif;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+}
+.elem_text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+
+/* Story */
+.story {
+}
+
+/* Food Menu */
+.foodmenu {
+}
+
+/* Feedback */
+.feedback {
+}
+
+/* Picture */
+.picture {
+}
+
+/* Offers */
+.offers {
+}
+
+/* Popular */
+.popular {
+}
+
+/* Services */
+.services {
+}
+
+/* News */
+.news {
+}
+
+/* Reservation */
+.reservation {
+}
+
+/* Footer */
+.footer {
+}
