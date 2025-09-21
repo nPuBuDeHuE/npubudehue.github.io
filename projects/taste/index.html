@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TasteEat</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="script/script.js" defer></script>
+    <script type="module" src="js/script.js" defer></script>
 </head>
 <body>
-    <header class="header">
-        <div class="container header_container">
+    <header class="header hidden">
+        <div class="container bg_header">
             <div class="header_logo_block">
                 <button class="btn btn_bordered btn_text_white">Call - 123 456 789</button>
                 <div><img src="img/rest_logo.svg" alt="Restaurnat's logo"></div>
@@ -18,8 +18,8 @@
         </div>
     </header>
 
-    <nav class="nav">
-        <div class="container header_container grey_line">
+    <nav class="nav hidden">
+        <div class="container bg_header grey_line">
             <div class="nav_menu">
                 <div class="nav_menu__list">
                     <a class="menu_list__item">Home</a>
@@ -39,9 +39,9 @@
         </div>
     </nav>
 
-    <section class="welcome">
-        <div class="welcome_container header_container">
-            <div class="welcome_row">
+    <section class="welcome hidden">
+        <div class="welcome_container bg_header">
+            <div class="row row_welcome">
                 <div class="welcome_row__left">
                     <h1 class="welcome_header">Welcome to Restaurant</h1>
                     <p class="welcome_text">The people, food and the prime locations make the perfect place good friends & family to come together and have great time.</p>
@@ -61,9 +61,9 @@
         </div>
     </section>
 
-    <section class="about">
-        <div class="container">
-            <div class="about_row">
+    <section class="about hidden">
+        <div class="container bg_about">
+            <div class=" row row_about">
                 <div class="about_elem about_location">
                     <img src="img/icons/location_icon.svg" alt="" class="elem_icon">
                     <div class="elem_info">
@@ -89,12 +89,62 @@
         </div>
     </section>
 
-    <section class="story">
-
+    <section class="story hidden">
+        <div class="container bg_about">
+            <div class="row row_story">
+                <div class="story_img">
+                    <img src="img/story_img.jpg" alt="">
+                </div>
+                <div class="story_frame">
+                    <div class="delic_story">
+                        <p class="header40 story_item__header">The Delicious Story</p>
+                        <p class="story_of_year__text">The people, food and the prime locations make the perfect place for the friends & family to come together and have great time.</p>
+                    </div>
+                    <div class="story_of_year">
+                        <p class="header40 story_item__header">2018</p>
+                        <p class="story_of_year__text">Plan for this restaurant to deliver healthy food.</p>
+                    </div>
+                    <div class="story_of_year">
+                        <p class="header40 story_item__header">2022</p>
+                        <p class="story_of_year__text">Happily in the fourth year by fulfill the motto.</p>
+                    </div>
+                    <div class="josefine_sign">
+                        <p class="josefine_sign__text">josefine</p>
+                        <img src="img/josefine_sign.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="foodmenu">
+        <div class="container container_food">
+            <div class="row row_foodmenu">
+                <div class="foodmenu_special">
+                    <div>Menu</div>
+                    <p class="header40">Try Our Special dishes</p>
+                    <p>Every time you perfectly dine with us, it should happy for great inspired food in an environment designed with individual touches unique to the local area.</p>
+                    <img src="img/food_img.jpg" alt="">
+                    <button class="btn btn_bordered btn_text_orange">See all dishes</button>
+                </div>
+                <div class="foodmenu_mainmenu">
+                    <!--section class="starters_section">
+                        <p class="header36 starters_header" >Starters</p>
+                        <div class="menu_item">
+                            <img src="img/menu/starters_raw.jpg" alt="" class="menu_item__img">
+                            <div class="menu_item__details">
+                                <p class="menu_item__details_header header30">Raw Scallops from Erquy</p>
+                                <p class="menu_item__details_text">Shuck the scallop to that used for oysters</p>
+                            </div>
+                            <div class="menu_item__line"></div>
+                            <div class="menu_item__price header30">$40</div>
+                        </div>
+                    </section -->
 
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="feedback">
