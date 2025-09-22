@@ -99,6 +99,16 @@ body {
     font-size: 30px;
     line-height: 40px;
 }
+.section_label {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 22.5px;
+    text-transform: uppercase;
+    border-top: #E1B168 1px solid;
+    border-bottom: #E1B168 1px solid;
+    padding-top: 4px;
+    margin-bottom: 12px;
+}
 
 /* HEADER */
 
@@ -275,11 +285,18 @@ a:hover {
 }
 .foodmenu_special {
     width: 491.25px;
-    border:#000 1px solid;
+}
+.special_header {
+    margin-bottom: 14px;
+}
+.special_text {
+    margin-bottom: 45px;    
+}
+.special_img {
+    margin-bottom: 60px;
 }
 .foodmenu_mainmenu {
     margin-top:34.34px;
-    border:#000 1px solid;
     width: 818px;
 }
 .starters_header {
@@ -314,7 +331,67 @@ a:hover {
 
 /* Feedback */
 .feedback {
+    color:#fff;
 }
+
+.feedback_container {
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+.feedback_textblock {
+    margin-bottom: 20px;
+}
+.feedback_textblock__header {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.feedback_textblock__text {
+}
+.feedback_slider {
+    padding-top: 40px;
+}
+.slider_cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.slider_card {
+    display: flex;
+    flex-direction: column;
+    width: 544px;
+    background-color: #343942;
+    padding: 0 40px;
+}
+.card_title {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    margin-bottom: 31px;
+    align-items: center;
+}
+.card_title__person_name {
+    font-family: "Cormorant Infant", serif;
+    font-size: 30px;
+    line-height: 42px;
+}
+.card_title__person_city {
+    color:#E1B168;
+}
+.card_line {
+    height: 1px;
+    background-color: #AAAAAA;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.card_text {
+    font-family: "Cormorant Infant", serif;
+    font-size: 24px;    
+    line-height: 37.5px;
+    letter-spacing: 0.25px;
+
+}
+
+
 
 /* Picture */
 .picture {
