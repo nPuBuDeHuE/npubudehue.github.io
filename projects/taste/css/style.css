@@ -27,6 +27,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
+    color: #555555;
 }
 
 
@@ -34,6 +35,10 @@ body {
     padding: 0 40px;
     margin: 0 auto;
     width: 1440px;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 .hidden {
@@ -54,6 +59,10 @@ body {
 
 .btn_white { 
     background-color: #fff;
+}
+.btn_grey { 
+    background-color: #fff;
+    opacity: 0.4;
 }
 .btn_orange { 
     background-color: #E1B168;
@@ -104,10 +113,18 @@ body {
     letter-spacing: 3px;
     line-height: 22.5px;
     text-transform: uppercase;
-    border-top: #E1B168 1px solid;
-    border-bottom: #E1B168 1px solid;
+    /*border-top: #E1B168 1px solid;
+    border-bottom: #E1B168 1px solid;*/
     padding-top: 4px;
     margin-bottom: 12px;
+}
+.border_orange {
+    border-top: #E1B168 1px solid;
+    border-bottom: #E1B168 1px solid;
+}
+.border_black {
+    border-top: #292E36 1px solid;
+    border-bottom: #292E36 1px solid;
 }
 
 /* HEADER */
@@ -326,7 +343,6 @@ a:hover {
 }
 .menu_item__price {
     flex-shrink: 0;
-    
 }
 
 /* Feedback */
@@ -336,24 +352,30 @@ a:hover {
 
 .feedback_container {
     padding-top: 140px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
 }
-.feedback_textblock {
-    margin-bottom: 20px;
-}
+
 .feedback_textblock__header {
     text-transform: capitalize;
     margin-bottom: 8px;
 }
 .feedback_textblock__text {
+    padding-bottom: 20px;
 }
 .feedback_slider {
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin: 0 auto;
+    width: 1440px;
+    
 }
 .slider_cards {
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     gap: 30px;
+    overflow: hidden;
 }
 .slider_card {
     display: flex;
@@ -361,6 +383,8 @@ a:hover {
     width: 544px;
     background-color: #343942;
     padding: 0 40px;
+    flex-shrink: 0;
+    
 }
 .card_title {
     display: flex;
@@ -390,8 +414,18 @@ a:hover {
     letter-spacing: 0.25px;
 
 }
-
-
+.slider_dots {
+    padding-bottom: 120px;
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;    
+}
 
 /* Picture */
 .picture {
@@ -400,6 +434,84 @@ a:hover {
 /* Offers */
 .offers {
 }
+.offers_top {
+    padding-top: 141px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.offers_top__header {
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.offers_bottom {
+    display: flex;
+    gap:30px;
+    padding-bottom: 120px;
+}
+.offers_top__text {
+    width: 813px;
+    margin: 0 auto;
+}
+.offers_bottom__item {
+    width: 665px;
+    height: 409px;
+}
+.offers_item__left {
+    background-image: url("../img/offers/blue_background.png");
+}
+.offers_item__right {
+    background-image: url("../img/offers/grey_background.png");
+}
+.offers_bottom__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer_description{
+    width: 278px;
+}
+.descr_label {
+    margin-bottom: 36px;
+    position:relative;
+    width: 167px;
+}
+.descr_text {
+    width: 254px;
+}
+.sky_baloon {
+    position:relative;
+    z-index: 2;
+}
+.sky_shadow {
+    /*box-shadow: 5px 5px 5px rgba(130,180,180, 1);*/
+    position: absolute;
+    top:6px;
+    left: 4px;
+    z-index: 1;
+}
+.offer_price {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* центрирует точно по середине */
+    text-align: center;
+}
+.offer_price_only {
+    font-size: 15px;
+    line-height: 10.5px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+}
+.offer_price_value {
+    font-family: "Cormorant Infant", serif;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+}
+
+
+
 
 /* Popular */
 .popular {

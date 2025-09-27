@@ -2,7 +2,11 @@ import { MENU } from "./resources.js";
 
 window.addEventListener('DOMContentLoaded', function() {
     console.log("DOM загружен");
-    makeMenu(MENU)
+    makeMenu(MENU);
+    const sliderDots = document.querySelector(".slider_dots");
+    if (sliderDots){
+        sliderDots.addEventListener('click', slideFeedback);
+    }
 });
 
 function makeMenu(menuList) {
@@ -33,6 +37,23 @@ function makeMenu(menuList) {
                 `;
                 menuBlock.insertAdjacentHTML('beforeend', elem);
             }
+        }
+    }
+}
+
+function slideFeedback(event) {
+    const dotLeft = document.querySelector(".dot_left");
+    const dotRight = document.querySelector(".dot_right");
+    const sliderCards = document.getElementsByClassName("slider_card");
+    
+    if (sliderCards.length > 0) {
+        const parent = sliderCards[0].parentNode;
+        if (event.target == dotRight) {
+            parent.appendChild(sliderCards[0]);
+        } 
+        if (event.target == dotLeft) {
+            const lastSlide = sliderCards[sliderCards.length-1];
+            parent.prepend(lastSlide)
         }
     }
 }
