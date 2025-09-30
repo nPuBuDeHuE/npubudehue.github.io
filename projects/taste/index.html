@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteEat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container bg_header">
+            <div class="header_logo_block">
+                <button class="btn btn_bordered btn_text_white">Call - 123 456 789</button>
+                <div><img src="img/rest_logo.svg" alt="Restaurnat's logo"></div>
+                <button class="btn btn_orange btn_text_black">Reservation</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav ">
+        <div class="container bg_header grey_line">
+            <div class="nav_menu">
+                <div class="nav_menu__list">
+                    <a class="menu_list__item">Home</a>
+                    <a class="menu_list__item">About Us</a>
+                    <a class="menu_list__item">Our Menu</a>
+                    <a class="menu_list__item">Pages</a>
+                    <a class="menu_list__item">Blog</a>
+                    <a class="menu_list__item">Contact Us</a>
+                </div>
+                <div class="menu_social">
+                    <div><img src="img/icons/inst.svg" alt=""></div>
+                    <div><img src="img/icons/face.svg" alt=""></div>
+                    <div><img src="img/icons/twit.svg" alt=""></div>
+                    <div><img src="img/icons/pint.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="welcome ">
+        <div class="welcome_container bg_header">
+            <div class="row row_welcome">
+                <div class="welcome_row__left">
+                    <h1 class="welcome_header">Welcome to Restaurant</h1>
+                    <p class="welcome_text">The people, food and the prime locations make the perfect place good friends & family to come together and have great time.</p>
+                    <button class="btn btn_bordered btn_text_orange">View Menu</button>
+                </div>
+                <div class="welcome_row__right">
+                    <div></div>
+                    <div class="grey_column"></div>
+                    <div></div>
+                    <div class="grey_column"></div>
+                    <div class="welcome_img">
+                        <img class="welcome_pattern" z-index="2" src="img/pattern.svg" alt="">
+                    </div>
+                    <div class="grey_column"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about ">
+        <div class="container bg_about">
+            <div class=" row row_about">
+                <div class="about_elem about_location">
+                    <img src="img/icons/location_icon.svg" alt="" class="elem_icon">
+                    <div class="elem_info">
+                        <p class="elem_header">Locate Us</p>
+                        <p class="elem_text">Riverside 25, San Diego, California</p>
+                    </div>
+                </div>
+                <div class="about_elem about_hours">
+                    <img src="img/icons/openhours_icon.svg" alt="" class="elem_icon">
+                    <div class="elem_info">
+                        <p class="elem_header">Open Hours</p>
+                        <p class="elem_text">Mon To Fri 9:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                <div class="about_elem about_reserv">
+                    <img src="img/icons/reserv_icon.svg" alt="" class="elem_icon">
+                    <div class="elem_info">
+                        <p class="elem_header">Reservation</p>
+                        <p class="elem_text">restaurantate@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="story ">
+        <div class="container bg_about">
+            <div class="row row_story">
+                <div class="story_img">
+                    <img src="img/story_img.jpg" alt="">
+                </div>
+                <div class="story_frame">
+                    <div class="delic_story">
+                        <p class="header40 story_item__header">The Delicious Story</p>
+                        <p class="story_of_year__text">The people, food and the prime locations make the perfect place for the friends & family to come together and have great time.</p>
+                    </div>
+                    <div class="story_of_year">
+                        <p class="header40 story_item__header">2018</p>
+                        <p class="story_of_year__text">Plan for this restaurant to deliver healthy food.</p>
+                    </div>
+                    <div class="story_of_year">
+                        <p class="header40 story_item__header">2022</p>
+                        <p class="story_of_year__text">Happily in the fourth year by fulfill the motto.</p>
+                    </div>
+                    <div class="josefine_sign">
+                        <p class="josefine_sign__text">josefine</p>
+                        <img src="img/josefine_sign.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="foodmenu ">
+        <div class="container container_food">
+            <div class="row row_foodmenu">
+                <div class="foodmenu_special">
+                    <span class="section_label border_orange">Menu</span>
+                    <p class="header40 special_header">Try Our Special dishes</p>
+                    <p class="special_text">Every time you perfectly dine with us, it should happy for great inspired food in an environment designed with individual touches unique to the local area.</p>
+                    <img class="special_img" src="img/food_img.jpg" alt="">
+                    <button class="btn btn_bordered btn_text_orange">See all dishes</button>
+                </div>
+                <div class="foodmenu_mainmenu">
+                    <!-- Template -->
+                    <!--section class="starters_section">
+                        <p class="header36 starters_header" >Starters</p>
+                        <div class="menu_item">
+                            <img src="img/menu/starters_raw.jpg" alt="" class="menu_item__img">
+                            <div class="menu_item__details">
+                                <p class="menu_item__details_header header30">Raw Scallops from Erquy</p>
+                                <p class="menu_item__details_text">Shuck the scallop to that used for oysters</p>
+                            </div>
+                            <div class="menu_item__line"></div>
+                            <div class="menu_item__price header30">$40</div>
+                        </div>
+                    </section -->
+                    <!-- Generated by script.js - makeMenu() -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback ">
+        <div class="container bg_header">
+            <div class="feedback_container">
+                <div class="feedback_textblock">
+                    <span class="section_label border_orange">Testimonial</span>
+                    <p class="header40 feedback_textblock__header">our clients say</p>
+                    <p class="feedback_textblock__text">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+                </div>
+            </div>
+        </div>
+        <div class="feedback_slider bg_header">
+            <div class="slider_cards">
+                <div class="slider_card">
+                    <div class="card_title">
+                        <img class="card_title__img" src="img/feedback/natasha_d.png" alt="">
+                        <div class="card_title__person">
+                            <div class="card_title__person_name">Natasha D</div>
+                            <div class="card_title__person_city">New York</div>
+                        </div>
+                    </div>
+                    <div class="card_line"></div>
+                    <div class="card_text">They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</div>
+                </div>
+
+                <div class="slider_card" style="order:0">
+                    <div class="card_title">
+                        <img class="card_title__img" src="img/feedback/jack_sparrow.png" alt="">
+                        <div class="card_title__person">
+                            <div class="card_title__person_name">Jack Sparrow</div>
+                            <div class="card_title__person_city">Salt Lake City</div>
+                        </div>
+                    </div>
+                    <div class="card_line"></div>
+                    <div class="card_text">I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</div>
+                </div>
+
+                <div class="slider_card">
+                    <div class="card_title">
+                        <img class="card_title__img" src="img/feedback/Martin.png" alt="">
+                        <div class="card_title__person">
+                            <div class="card_title__person_name">Martin</div>
+                            <div class="card_title__person_city">San Diego</div>
+                        </div>
+                    </div>
+                    <div class="card_line"></div>
+                    <div class="card_text">Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg_header">
+            <div class="slider_dots">
+                <div class="dot dot_left btn_white"></div>
+                <div class="dot dot_right btn_grey"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="picture ">
+        <div class="container">
+            <img src="img/picture/picture.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="offers ">
+        <div class="container">
+            <div class="offers_top">
+                <span class="section_label border_orange">offers</span>
+                <p class="header40 offers_top__header">Our Offer dishes</p>
+                <p class="offers_top__text">Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now
+                    the dishes are in offers use it based on hunger.</p>
+            </div>
+            <div class="offers_bottom">
+                <div class="offers_bottom__item offers_item__left">
+                    <div class="offer_description">
+                        <div class="descr_label">
+                            <div class="offer_price">
+                                <p class="offer_price_only">only</p> 
+                                <p class="offer_price_value">$10</p>
+                            </div>
+                            <img src="img/offers/white_sky.png" class="sky_baloon" alt="">
+                            <img src="img/offers/white_sky_shadow.png" class="sky_shadow" alt="">
+                        </div>
+                        <div class="descr_text">
+                            <p><span class="section_label border_black">50% Offer Going</span></p>
+                            <p  class="header40">Chicken Burger</p>
+                            <p>Chicken burger with the tasty toppings and leaves.</p>
+                        </div>
+                    </div>
+                    <div class="offer_picture">
+                        <img src="img/offers/burger.png" alt="">
+                    </div>
+                </div>
+                <div class="offers_bottom__item offers_item__right">
+                    <div class="offer_description">
+                        <div  class="descr_label">
+                            <div class="offer_price btn_text_white">
+                                <p class="offer_price_only">only</p> 
+                                <p class="offer_price_value">$10</p>
+                            </div>
+                            <img src="img/offers/black_sky.png" class="sky_baloon" alt="">
+                            <img src="img/offers/black_sky_shadow.png" class="sky_shadow" alt="">
+                        </div>
+                        <div  class="descr_text">
+                            <p><span class="section_label border_black">50% Offer Going</span></p>
+                            <p class="header40">Chicken Pizza</p>
+                            <p>Pizza with multiple flavor and the toping are mixed.</p>
+                        </div>
+                    </div>
+                    <div class="offer_picture">
+                        <img src="img/offers/pizza.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular ">
+        <div class="container">
+            <div class="popular_description">
+                <p><span class="section_label border_orange">menu</span></p>
+                <p class="header40">Popular Dishes</p>
+                <p>There is a game between the waiters in restaurant to see who serves the food to each table fastest. That led to attempting the Guinness Record.</p>
+            </div>
+            <div class="popular_slider">
+
+                <div class="popular_card">
+                    <img src="img/popular/chicken_manjoori.jpg" alt="" class="popular_card__image">
+                    <div class="popular_card__header header30">
+                        <span>Chicken Manjoori</span>
+                        <span>$15</span>
+                    </div>
+                    <div class="popular_card__description">
+                        Dish relished by all age groups as a starter dish at parties.
+                    </div>
+                </div>
+
+                <div class="popular_card">
+                    <img src="img/popular/hotdog.jpg" alt="" class="popular_card__image">
+                    <div class="popular_card__header header30">
+                        <span>Hotdog</span>
+                        <span>$10</span>
+                    </div>
+                    <div class="popular_card__description">
+                        Grilled sausage served in the slit of a partially sliced bun.
+                    </div>
+                </div>
+
+                <div class="popular_card">
+                    <img src="img/popular/fresh_salmon.jpg" alt="" class="popular_card__image">
+                    <div class="popular_card__header header30">
+                        <span>Fresh Salmon</span>
+                        <span>$5</span>
+                    </div>
+                    <div class="popular_card__description">
+                        Beat the health blues with our Super Immune Blue Juice Recipe.
+                    </div>
+                </div>
+
+                <div class="popular_card">
+                    <img src="img/popular/veg_burger.jpg" alt="" class="popular_card__image">
+                    <div class="popular_card__header header30">
+                        <span>Veg Burger</span>
+                        <span>$10</span>
+                    </div>
+                    <div class="popular_card__description">
+                        Burgers may be made from ingredients like beans.
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular_all_dishes"><button class="btn btn_bordered btn_text_orange">See all dishes</button></div>
+
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container bg_header">
+            <div class="services_row">
+                <div class="services_row__description">
+                    <span class="section_label border_orange">what we offer</span>
+                    <p class="header40">Our Great Services</p>
+                    <p>The atmosphere set the stage. It’s about more than just a dining room away from your home. food takes the spotlight as guests.</p>
+                </div>
+                <div class="services_row__slides">
+                    <div class="services_card">
+                        <div><img class="services_card__icon" src="img/services/opened.svg" alt=""></div>
+                        <div class="services_card__text">Opened 24/7</div>
+                    </div>
+                    <div class="services_card">
+                        <div><img class="services_card__icon" src="img/services/menus.png" alt=""></div>
+                        <div class="services_card__text">Special Menus</div>
+                    </div>
+                    <div class="services_card">
+                        <div><img class="services_card__icon" src="img/services/delivery.png" alt=""></div>
+                        <div class="services_card__text">Home Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="news_description">
+                <p><span class="section_label border_orange">blog</span></p>
+                <p class="header40">Be First Who Read News</p>
+                <p class="news_description__text">Explore the latest stories about our dishes, offers, events and future plans here.</p>
+            </div>
+            <div class="news_slider">
+                <div class="slider_item">
+                    <div class="slider_item__image">
+                        <img src="img/news/img_left.jpg" alt="">
+                        <button class="btn btn_orange slider_item__button">View More</button>
+                    </div>
+                    <div class="slider_item__description">
+                        <p>
+                            <span class="section_label border_orange ">Delicious</span>
+                            <span class="section_label border_orange">March 19, 2022</span>
+                        </p>
+                        <p class="header30 slider_item__header">The Legend of US Cuisine: The Story of Hungry People</p>
+                        <p>Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>
+                    </div>
+                </div>
+
+                <div class="slider_item">
+                    <div class="slider_item__image">
+                        <img src="img/news/img_right.jpg" alt="">
+                        <button class="btn btn_orange slider_item__button">View More</button>
+                    </div>
+                    <div class="slider_item__description">
+                        <p>
+                            <span class="section_label border_orange ">Cooking</span>
+                            <span class="section_label border_orange">March 19, 2022</span>
+                        </p>
+                        <p class="header30 slider_item__header">The Most Popular Delicious Food of Mediterranean Cuisine</p>
+                        <p>Strategies on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation">
+        <div class="reserv_form">
+            <div class="reserv_form__header">
+                <span class="section_label border_orange">reservation</span>
+                <p class="header40 reserv_header">Book Your Table</p>
+            </div>
+            <div class="reserv_form__fields">
+                
+                    <div class="fields_row">
+                        <input type="text" name="name_field" class="form_field form_field_lg" placeholder="Name">
+                        <input type="email" name="email_field" class="form_field form_field_lg"  placeholder="Email">
+                    </div>
+                
+                
+                <div class="fields_row">
+                    <input type="text" name="persons_field" class="form_field form_field_sm"  placeholder="Persons">
+                    <input type="text" name="time_field" class="form_field form_field_sm"  placeholder="Timing">
+                    <input type="text" name="date_field" class="form_field form_field_sm"  placeholder="Date">
+                </div>
+            </div>
+            <button class="btn btn_white btn_text_black reserv_button">
+                Book A Table
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container bg_header">
+            <div class="footer_column">
+                <div class="footer_logo_row">
+                    <div class="footer_logo_row__col_1">#TheTastEat</div>
+                    <div class="footer_logo_row__col_2"><img src="img/rest_logo.svg" alt=""></div>
+                    <div class="menu_social footer_logo_row__col_3">
+                        <div><img src="img/icons/inst.svg" alt=""></div>
+                        <div><img src="img/icons/face.svg" alt=""></div>
+                        <div><img src="img/icons/twit.svg" alt=""></div>
+                        <div><img src="img/icons/pint.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="footer_form_row">
+                    <div class="footer_form_row__col_1">
+                        <p><span class="section_label border_orange">contact</span></p>
+                        <p>5 Rue Dalou, 75015 Paris</p>
+                        <p class="btn_text_orange">+123 456 789</p>
+                        <p class="btn_text_orange">josefin@mail.com</p>
+                    </div>
+                    <div class="footer_form_row__col_2">
+                        <div class="">Join our mailing list for updates, Get news & offers events.</div>
+                        <div>
+                            <input type="text" placeholder="Email" class="form_field form_field_subscribe">
+                            <button class="btn_white btn_text_black btn_subscribe">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="footer_form_row__col_3">
+                        <p><span class="section_label border_orange">Working Hours</span></p>
+                        <p><span class="btn_text_orange">Mon – Fri:</span> 7.00am – 6.00pm</p>
+                        <p><span class="btn_text_orange">Sat:</span> 7.00am – 6.00pm</p>
+                        <p><span class="btn_text_orange">Sun:</span> 8.00am – 6.00pm</p>
+                        
+                    </div>
+                </div>
+                <div class="footer_info_row">
+                    <div>© Copyright - TastEat | Designed by <span class="btn_text_orange">VictorFlow</span> - Powered by <span class="btn_text_orange">Webflow</span></div>
+                    <div class="btn_text_orange footer_info_row__col_2">
+                        <span>Styleguide</span> 
+                        <span>Licenses</span> 
+                        <span>Protected</span> 
+                        <span>Not Found</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
