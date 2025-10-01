@@ -63,6 +63,10 @@ body {
 .about_item {
     width: 640px;
 }
+
+.about_item img {
+    border-radius: 50%;
+}
 .about_text {
     padding: 40px 0;
     font-size: 24px;

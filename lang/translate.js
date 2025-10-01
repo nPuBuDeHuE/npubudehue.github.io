@@ -11,7 +11,8 @@ export const LANG = {
         <p>El libro fue escrito a principios del siglo XX y narra la búsqueda de los diamantes de una difunta señora. Es una obra satírica y de aventuras.</p>
         <p>La novela cuenta con traducción al español, así como con adaptaciones cinematográficas en español.</p>`,
         "proxima": "Próximamente..",
-        "footer_figma": "Maquetado a partir de Figma"
+        "footer_figma": "Maquetado a partir de Figma",
+        "restaurant": "Bienvenido al restaurante"
     }, 
     ru: {
         "menu_alias":"Виталий 'Toros' Быков",
@@ -25,6 +26,7 @@ export const LANG = {
         <p>Книга была написана в начале XX века и рассказывает о поисках богатства умершей дворянки. Представляет собой сатирическое и приключенческое произведение.</p>
         <p>Произведение неоднократно экранизировалось. Мне больше всего нравится <a href='https://ru.ruwiki.ru/wiki/12_стульев_(фильм,_1976)'>версия 1976 года</a> с <a href='https://ru.ruwiki.ru/wiki/Миронов,_Андрей_Александрович'>Андреем Мироновым</a>, которую поставил <a href='https://ru.ruwiki.ru/wiki/Захаров,_Марк_Анатольевич'>Марк Захаров</a> </p>`,
         "proxima": "Скоро..",
-        "footer_figma": "Свёрстано по макету Figma"
+        "footer_figma": "Свёрстано по макету Figma",
+        "restaurant": "Добро пожаловать в ресторан"
     }
 }
