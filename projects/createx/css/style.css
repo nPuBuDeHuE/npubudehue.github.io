@@ -1,0 +1,254 @@
+@import url(reset.css);
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+*/
+
+/* BASE */
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+.section {
+    width: 1920px;
+    margin: 0 auto;
+    /*background-color: antiquewhite;*/
+}
+.container {
+    padding: 0 345px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+/** FONTS **/
+.h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.display_1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+}
+.display_2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+}
+.display_3 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+}
+.display_4 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+}
+.text_bold {
+    font-weight: 700;
+}
+.text_lead {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.text_large {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.text_base {
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+.text_small {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.text_extrasm {
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.text_ultrasm {
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.text_primary {
+    color: #FF5A30;
+}
+
+.primary {
+    background-color: #FF5A30;
+    color: #fff;
+}
+.white {
+    color: #fff;
+    border: #fff 1px solid;
+
+}
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 40px;
+}
+.btn_large {
+    height: 52px;
+}
+.btn_small {
+    height: 44px;
+}
+
+/** MENU **/
+.menu_row {
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.logo_image {
+    margin-right: 60px;
+}
+.menus {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.iconmenu_row {
+    gap: 36px;
+}
+.menu_phone, .menu_chat {
+    display: flex;
+    gap: 12px;
+}
+.menu_image {
+    width: 40px;
+    height: 40px;
+}
+
+/** SLIDER SECTION */ 
+.slider_section {
+    position: relative;
+}
+.slides {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    filter: brightness(0.4);
+}
+.slide {
+    /*filter: brightness(0.4);*/
+    flex-shrink: 0;
+}
+.slider_btn {
+    position: absolute;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFf;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider_btn:hover {
+    opacity: 1;
+}
+.prev {
+    left:30px;
+    background-image: url("../img/slides/prev_line.svg");
+}
+.next {
+    right: 30px;
+    background-image: url("../img/slides/next_line.svg");
+}
+.slider_btn.active {
+    background-color: #fff;
+}
+.slider_description {
+    position: absolute;
+    top: 220px;
+    color: #fff;
+}
+.slider_header {
+    width: 577px;
+    margin-bottom: 24px;
+}
+.slider_text {
+    width: 595px;
+    margin-bottom: 60px;
+}
+.btn.white {
+    margin-right: 24px;
+}
+.slide_counter {
+    position: absolute;
+    top: 814px;
+    left: 345px;
+    display: flex;
+    gap: 4px;
+}
+.slide_counter__item {
+    height: 54px;
+    width: 178px;
+    border-bottom: #fff 1px solid;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.slide_active {
+    opacity:1;
+}
