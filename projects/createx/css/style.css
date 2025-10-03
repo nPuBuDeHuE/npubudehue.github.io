@@ -26,7 +26,7 @@ body {
 }
 
 .section {
-    width: 1920px;
+    width: 1840px;
     margin: 0 auto;
     /*background-color: antiquewhite;*/
 }
@@ -43,31 +43,31 @@ body {
     font-weight: 700;
     font-size: 46px;
     line-height: 130%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .h2 {
     font-weight: 700;
     font-size: 32px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .h3 {
     font-weight: 700;
     font-size: 28px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .h4 {
     font-weight: 700;
     font-size: 24px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .h5 {
     font-weight: 700;
     font-size: 20px;
     line-height: 130%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .h6 {
     font-weight: 700;
@@ -100,32 +100,32 @@ body {
 .text_lead {
     font-size: 20px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .text_large {
     font-size: 18px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .text_base {
     font-size: 16px;
     line-height: 160%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .text_small {
     font-size: 14px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .text_extrasm {
     font-size: 12px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .text_ultrasm {
     font-size: 10px;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 .text_primary {
     color: #FF5A30;
@@ -165,6 +165,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    /*margin-right: 140px;*/
 }
 .iconmenu_row {
     gap: 36px;
