@@ -1,0 +1,144 @@
+/** FONTS **/
+.h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0;
+}
+.h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0;
+}
+.h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.display_1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+}
+.display_2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+}
+.display_3 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+}
+.display_4 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+}
+.text_bold {
+    font-weight: 700;
+}
+.text_lead {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text_large {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text_base {
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0;
+}
+.text_small {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text_extrasm {
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text_ultrasm {
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text_white {
+    color: #fff;
+}
+.text_primary {
+    color: #FF5A30;
+}
+.text_success {
+    color: #03CEA4;
+}
+.text_danger {
+    color: #FF4242;
+}
+.text_warning {
+    color: #F89828;
+}
+.text_info {
+    color: #5A87FC;
+}
+
+.primary {
+    background-color: #FF5A30;
+    color: #fff;
+}
+.white {
+    color: #fff;
+    border: #fff 1px solid;
+
+}
+.grey900 {
+    color:#1E212C;
+}
+.grey800 {
+    color:#424551;
+}
+.grey700 {
+    color:#787A80;
+}
+.grey600 {
+    color:#9A9CA5;
+}
+.grey500 {
+    color:#B3B7BC;
+}
+.grey400 {
+    color:#D7DADD;
+}
+.grey300 {
+    color:#E5E8ED;
+}
+.grey200 {
+    color:#F4F5F6;
+}
+.grey100 {
+    color:#F9F9F9;
+}
