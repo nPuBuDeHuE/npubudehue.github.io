@@ -7,6 +7,20 @@ document.addEventListener("DOMContentLoaded", function () {
     slideButtons.forEach(function(button){
         button.addEventListener("click", moveSlides)
     })
+
+    /** включаем видео */
+    const videoBtn = document.querySelector(".video_play__button");
+    const videoFile = document.querySelector(".video_object");
+    videoBtn.addEventListener("click", function(){
+        if (videoFile.paused) {
+            videoFile.play();
+            //videoBtn.classList.add("video_pause");
+        } else {
+            videoFile.pause();
+            //videoBtn.classList.remove("video_pause");
+        }
+    })
+
 })
 
 /** Вставляем постоянное содержимое из файлов */
