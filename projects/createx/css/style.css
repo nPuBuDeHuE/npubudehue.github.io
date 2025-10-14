@@ -523,8 +523,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-.partners_profile,  .partners_text {
-    margin-bottom: 24px;
+.partners_profile {
+    padding-top: 60px;
+    padding-bottom: 24px;
+}
+.partners_text {
+    padding-bottom: 24px;
 }
 .partners_sign {
     display: flex;
@@ -706,7 +710,7 @@ body {
 /** FOOTER SECTION **/
 .footer {
     background-color: var(--gray900);
-    height: 566px;
+    _height: 566px;
 }
 
 .footer__first_row {
@@ -775,4 +779,47 @@ body {
 .input_info {
     margin-top: 16px;
     color: rgba(255, 255, 255, 0.6); 
+}
+
+.footer__second_row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 124px;
+    color: #fff;
+    padding-top: 50px;
+}
+.footer__second_row_item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.footer__second_row li:first-child {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: var(--fs16);
+    line-height: 150%;
+    margin-bottom: 13px;
+}
+.footer__second_row li:not(:first-child) {
+    opacity: 0.6;
+}
+.footer__third_row {
+    padding-top: 38px;
+    padding-bottom: 80px;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.goTopBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.footer_gotop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 16px;
 }
