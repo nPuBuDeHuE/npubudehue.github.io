@@ -156,6 +156,11 @@
     background-color: var(--color-primary);
     color: #fff;
 }
+.secondary {
+    background-color: #fff;
+    color: var(--color-primary);
+    border: var(--color-primary) 1px solid;
+}
 .white {
     color: #fff;
     border: #fff 1px solid;

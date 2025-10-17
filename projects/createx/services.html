@@ -7,12 +7,94 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="section menu_section">
+    <nav class="section menu_srv_section" id="menu_section">
         <div class="container">
-            <div data-include="menu.html"></div>
+            <div class="row menu_row">
+                <a href="index.html"><img src="img/createx_logo.svg" alt="" class="logo_image"></a>
+                <ul class="menus text_base text_bold grey800">
+                    <li><a class="menu_link" data-page="about" href="about.html">About Us</a></li>
+                    <li><a class="menu_link" data-page="services" href="services.html">Services</a></li>
+                    <li><a class="menu_link" data-page="work" href="work.html">Work</a></li>
+                    <li><a class="menu_link" data-page="news" href="news.html">News</a></li>
+                    <li><a class="menu_link" data-page="contacts" href="contacts.html">Contacts</a></li>
+                </ul>
+                <div class="row iconmenu_row">
+                    <div class="menu_phone">
+                        <img src="img/createx_phone.svg" alt="" class="menu_image">
+                        <div class="menu_phone__text">
+                            <p class="text_small text_bold">Call us</p>
+                            <p class="text_large">(405) 555-0128</p>
+                        </div>
+                    </div>
+                    <div class="menu_chat">
+                        <img src="img/createx_chat.svg" alt="" class="menu_image">
+                        <div class="menu_chat__text">
+                            <p class="text_small text_bold">Talk to us</p>
+                            <p class="text_large">hello@createx.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_srv_content">
+                <p class="menu_srv_bread">Homepage / Services</p>
+                <p class="display_1 menu_srv_content_header">services</p>
+                <p class="text_lead grey700">If you are looking for a full-service construction company, look to Createx Construction Bureau. We are doing our best to be a partner for all of your construction needs.services</p>
+            </div>
         </div>
     </nav>
 
-    <script src="js/includes.js"></script>
+    <section class="service_list_section">
+        <div class="container">
+            
+            <div class="service_list_article">
+                <article class="service_list_item img_left_item">
+                    <div class="service_list_item_img"><img src="img/services_page/construction.jpg" alt=""></div>
+                    <div class="service_list_item_content">
+                        <p class="service_list_item_header h2 grey900">Construction</p>
+                        <p class="service_list_item_text text_base grey700">Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius consectetur vulputate arcu, scelerisque nisi, nibh. Enim semper id sodales ultricies sed ut ut augue. Mattis habitant venenatis, gravida posuere massa ac interdum. Eget aliquam dignissim ut vestibulum. </p>
+                        <div><button class="btn btn_small secondary">learn more</button></div>
+                    </div>
+                </article>
+
+                <article class="service_list_item img_right_item">
+                    <div class="service_list_item_content">
+                        <p class="service_list_item_header h2 grey900">Project Development</p>
+                        <p class="service_list_item_text text_base grey700">Volutpat tellus mauris sit sit. Posuere ut sit vestibulum amet viverra in. Est nulla lectus purus tincidunt massa tortor. Hendrerit vulputate elementum blandit massa vitae amet felis eget. </p>
+                        <div><button class="btn btn_small secondary">learn more</button></div>
+                    </div>
+                    <div class="service_list_item_img"><img src="img/services_page/development.jpg" alt=""></div>
+                </article>
+
+                <article class="service_list_item img_left_item">
+                    <div class="service_list_item_img"><img src="img/services_page/design.jpg" alt=""></div>
+                    <div class="service_list_item_content">
+                        <p class="service_list_item_header h2 grey900">Interior Design</p>
+                        <p class="service_list_item_text text_base grey700">Eleifend orci massa et facilisis orci feugiat ac. Congue in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla duis. Arcu dictum metus sed purus senectus faucibus eget elementum pretium. </p>
+                        <div><button class="btn btn_small secondary">learn more</button></div>
+                    </div>
+                </article>
+
+                <article class="service_list_item img_right_item">
+                    <div class="service_list_item_content">
+                        <p class="service_list_item_header h2 grey900">Repairs</p>
+                        <p class="service_list_item_text text_base grey700">Facilisis cursus feugiat sit pulvinar amet. Ac facilisi dictum commodo, tortor gravida pretium, orci. Nunc sit sollicitudin id egestas mattis. Turpis viverra nec urna ultrices urna. </p>
+                        <div><button class="btn btn_small secondary">learn more</button></div>
+                    </div>
+                    <div class="service_list_item_img"><img src="img/services_page/repair.jpg" alt=""></div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <section class="section discuss_section" data-include="discuss.html">
+    </section>
+
+    <footer class="section footer" data-include="footer.html">
+    </footer>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>

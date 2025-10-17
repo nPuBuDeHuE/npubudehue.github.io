@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     /** Вставляем содержимое из файлов: меню и футер */
     insertInclude();
+    /** Определяем активную ссылку в меню */
+    setActiveNavLink();
 
     /** переключаем Слайды */
     const slideButtons = document.querySelectorAll(".slider_btn");
@@ -8,20 +10,41 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", moveSlides)
     })
 
-    /** включаем видео */
-    const videoBtn = document.querySelector(".video_play__button");
+    /** включаем видео - не работает, у rutube нельзя отключить управление */
+    /* const videoBtn = document.querySelector(".video_play__button");
     const videoFile = document.querySelector(".video_object");
-    videoBtn.addEventListener("click", function(){
-        if (videoFile.paused) {
-            videoFile.play();
-            //videoBtn.classList.add("video_pause");
-        } else {
-            videoFile.pause();
-            //videoBtn.classList.remove("video_pause");
-        }
-    })
-
+    if (videoBtn){
+        videoBtn.addEventListener("click", function(){
+            if (videoFile.paused) {
+                videoFile.play();
+                //videoBtn.classList.add("video_pause");
+            } else {
+                videoFile.pause();
+                //videoBtn.classList.remove("video_pause");
+            }
+        });
+    } */
+    
 })
+
+/** Определяем активную ссылку в меню */
+function setActiveNavLink() {
+    // Получаем имя текущей страницы
+    //const currentPage = window.location.pathname.split('/').pop();
+    const currentPage = window.location.pathname.split('/').pop();
+    console.log(`window.location.pathname -- `, window.location.pathname);
+    console.log(`currentPage -- `, currentPage);
+    const pageName = currentPage.replace('.html', '') || 'index';
+    console.log(`pageName -- `, pageName);
+
+    // Находим соответствующую ссылку
+    const activeLink = document.querySelector(`a[data-page="${pageName}"]`);
+    console.log(`activeLink --- `, activeLink)
+    
+    if (activeLink) {
+        activeLink.classList.add('menu_active');
+    }
+}
 
 /** Вставляем постоянное содержимое из файлов */
 function insertInclude() {
