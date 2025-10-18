@@ -840,10 +840,14 @@ a:active {
 /* SERVICE PAGE */
 .menu_srv_section {
     background-color: var(--gray200);
+    background-image: url("../img/services_page/bg_header.png");
     height: 600px;
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 .menu_srv_content {
     padding-top: 63px;
+    width: 600px;
 }
 .menu_srv_content_header {
     margin-top: 57px;
@@ -863,7 +867,17 @@ a:active {
     justify-content: center;
     align-items: center;
     padding-bottom: 120px;
-
+    position: relative;
+}
+.bg_right_side {
+    position: absolute;
+    right: 0;
+    top:531px;
+}
+.bg_left_side {
+    position: absolute;
+    top: 1623px;
+    left: 0;
 }
 .service_list_item {
     display: flex;
