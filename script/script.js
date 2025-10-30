@@ -2,7 +2,7 @@ import { LANG } from "../lang/translate.js";
 
 window.addEventListener('DOMContentLoaded', function() {
     console.log("DOM загружен");
-    console.log("LANG -- ", LANG);
+    //console.log("LANG -- ", LANG);
     
     const whatsButton = document.querySelector(".whatsapp_link");
     if (whatsButton) {
@@ -43,6 +43,8 @@ function changeLanguage(flag_current) {
     }
 
     console.log('selectedLanguage', selectedLanguage);
+
+    document.title = LANG[selectedLanguage].html_title || "Портфолио"
 
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');

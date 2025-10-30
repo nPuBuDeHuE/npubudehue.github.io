@@ -45,13 +45,15 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     padding: 0 40px;
-    height: 44px;
     border-radius: 4px;
+
 }
 .btn_large {
     height: 52px;
+    line-height: 52px;
 }
 .btn_small {
+    line-height: 44px;
     height: 44px;
 }
 a:active {
@@ -704,6 +706,7 @@ a:active {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
 .form_control_row {
@@ -718,6 +721,9 @@ a:active {
 }
 .discuss_form__list_check:checked {
     accent-color: var(--color-primary);
+}
+.discuss_form__sendbutton {
+    width: 200px;
 }
 
 /** FOOTER SECTION **/
@@ -900,4 +906,17 @@ a:active {
 .service_list_item_img img{
     width: 575px;
     height: 420px;
+}
+
+/** INTERIOR DESIGN **/
+.menu_design_section {
+    background-image: url("../img/design/bg_design.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.weoffer_section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
