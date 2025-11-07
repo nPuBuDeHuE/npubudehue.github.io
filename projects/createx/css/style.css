@@ -914,6 +914,7 @@ a:active {
     background-position: right center;
     background-repeat: no-repeat;
     height: 600px;
+    background-color: var(--gray200);
 }
 
 .weoffer_section {
