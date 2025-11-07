@@ -1,5 +1,6 @@
 export const LANG = {
     es: {
+        "html_title": "Toros: Carpeta de trabajos",
         "menu_alias":"Vitaly 'Toros' Bykov",
         "menu_work": "Mis trabajos",
         "menu_info": "Información",
@@ -15,6 +16,7 @@ export const LANG = {
         "restaurant": "Bienvenido al restaurante"
     }, 
     ru: {
+        "html_title": "Toros: Портфолио",
         "menu_alias":"Виталий 'Toros' Быков",
         "menu_work": "Мои работы",
         "menu_info": "Информация",

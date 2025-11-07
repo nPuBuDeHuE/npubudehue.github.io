@@ -47,6 +47,8 @@
         <div class="container">
             
             <div class="service_list_article">
+                <img class="bg_right_side" src="img/services_page/bg_right_side.png" alt="">
+                <img class="bg_left_side" src="img/services_page/bg_left_side.png" alt="">
                 <article class="service_list_item img_left_item">
                     <div class="service_list_item_img"><img src="img/services_page/construction.jpg" alt=""></div>
                     <div class="service_list_item_content">
@@ -70,7 +72,7 @@
                     <div class="service_list_item_content">
                         <p class="service_list_item_header h2 grey900">Interior Design</p>
                         <p class="service_list_item_text text_base grey700">Eleifend orci massa et facilisis orci feugiat ac. Congue in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla duis. Arcu dictum metus sed purus senectus faucibus eget elementum pretium. </p>
-                        <div><button class="btn btn_small secondary">learn more</button></div>
+                        <div><button class="btn btn_small secondary design_link"><a href="services_interior.html">learn more</a></button></div>
                     </div>
                 </article>
 
@@ -96,5 +98,13 @@
     </footer>
     
     <script src="js/script.js"></script>
+    <script>
+        window.onload = function () {
+            let designLink = document.querySelector('.design_link');
+            designLink.onclick = function () {  
+                window.open('services_interior.html', '_self');
+            }
+        }
+    </script>
 </body>
 </html>
