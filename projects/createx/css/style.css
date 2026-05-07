@@ -917,7 +917,41 @@ a:active {
     background-color: var(--gray200);
 }
 
+.weoffer {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+}
+
+.weoffer_content__header {
+    margin-bottom: 60px;
+}
+
 .weoffer_section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.w {
+    position: relative;
+    width: 376px;
+}
+
+.weoffer_sibling {
+    margin-bottom: 12px;
+}
+.weoffer_elem {
+    margin-bottom: 24px;
+}
+
+.weoffer_sibling::before {
+    content: url('../img/design/Plus.png');
+    position: absolute;
+    left: -44px;
+}
+.weoffer_sibling.changed::before {
+    content: url('../img/design/Minus.png');
+  }
+.hide_elem {
+    display: none;
 }

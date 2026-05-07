@@ -13,7 +13,9 @@ export const LANG = {
         <p>La novela cuenta con traducción al español, así como con adaptaciones cinematográficas en español.</p>`,
         "proxima": "Próximamente..",
         "footer_figma": "Maquetado a partir de Figma",
-        "restaurant": "Bienvenido al restaurante"
+        "restaurant": "Bienvenido al restaurante",
+        "createx":"Empresa constructora",
+        "muebles":"Tienda de muebles"
     }, 
     ru: {
         "html_title": "Toros: Портфолио",
@@ -29,6 +31,8 @@ export const LANG = {
         <p>Произведение неоднократно экранизировалось. Мне больше всего нравится <a href='https://ru.ruwiki.ru/wiki/12_стульев_(фильм,_1976)'>версия 1976 года</a> с <a href='https://ru.ruwiki.ru/wiki/Миронов,_Андрей_Александрович'>Андреем Мироновым</a>, которую поставил <a href='https://ru.ruwiki.ru/wiki/Захаров,_Марк_Анатольевич'>Марк Захаров</a> </p>`,
         "proxima": "Скоро..",
         "footer_figma": "Свёрстано по макету Figma",
-        "restaurant": "Добро пожаловать в ресторан"
+        "restaurant": "Добро пожаловать в ресторан",
+        "createx":"Строительная фирма",
+        "muebles":"Магазин мебели"
     }
 }

@@ -8,6 +8,27 @@ document.addEventListener("DOMContentLoaded", function () {
     const slideButtons = document.querySelectorAll(".slider_btn");
     slideButtons.forEach(function(button){
         button.addEventListener("click", moveSlides)
+    });
+
+    /** Показываем / скрываем текст на странице services_interior.html */
+    const weOfferElem = document.querySelector('.weoffer_content');
+    weOfferElem.addEventListener("click", function(event){
+        const target = event.target
+        console.log('weOfferElem event.target -- ', event.target)
+        
+        if (target.classList.contains('weoffer_sibling')){
+            const parent = target.parentElement;
+            const need = parent.querySelector('.weoffer_elem');
+            if (need) {
+                if (need.classList.contains('hide_elem')){
+                    need.classList.remove('hide_elem');
+                    target.classList.add('changed')
+                } else {
+                    need.classList.add('hide_elem');
+                    target.classList.remove('changed')
+                }
+            }
+        }
     })
 
     /** включаем видео - не работает, у rutube нельзя отключить управление */
