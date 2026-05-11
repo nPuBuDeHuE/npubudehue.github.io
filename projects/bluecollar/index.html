@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js" defer></script>
+    <title>BlueCollar</title>
+</head>
+<body>
+    <!-- В скрипте загружаем svg-спрайт - img/header/sprite.svg с социальными иконками -->
+    <header class="header">
+        <div class="container">
+            <div class="open_hours">
+                <div class="open_hours_text">Opening Hours: 06:00 to 20:00</div>
+                <div class="open_hours__social">
+                    <svg class="social_icons">
+                        <use href="#f"></use>
+                    </svg>
+                    <svg class="social_icons">
+                        <use href="#t"></use>
+                    </svg>
+                    <svg class="social_icons">
+                        <use href="#p"></use>
+                    </svg>
+                    <svg class="social_icons">
+                        <use href="#i"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="container white_container">
+            <div>
+                <div class="main_title">
+                    <div class="main_logo">
+                        <img src="img/header/logo.png" alt="">
+                    </div>
+                    <div class="main_contacts">
+                        <div class="main_contacts__item main_contacts__mail">
+                            <div class="item68 round_btn btn_yellow">
+                                <img src="img/header/mail_icon.png" alt="" class="item_image">
+                            </div>
+                            <div>
+                                <div class="item_title">Mail Us</div>
+                                <div class="item_details">Info@bluecollar.com</div>
+                            </div>
+                        </div>
+                        <div class="main_contacts__item main_contacts__call">
+                            <div class="item68 round_btn btn_yellow">
+                                <img src="img/header/phone_icon.png" alt="" class="item_image">
+                            </div>
+                            <div>
+                                <div class="item_title">Call Us</div>
+                                <div class="item_details">+01 569 896 654</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container white_container">
+            <nav class="main_nav">
+                <ul class="main_menu" id="main_menu">
+                    <li class="main_menu__item">
+                        <a href="#" class="main_menu__link main_menu__link_active">Home</a>
+                    </li>
+                    <li class="main_menu__item">
+                        <a href="#" class="main_menu__link">About Us</a>
+                    </li>
+                    <li class="main_menu__item">
+                        <a href="#" class="main_menu__link">Pages</a>
+                    </li>
+                    <li class="main_menu__item">
+                        <a href="#" class="main_menu__link">Blog</a>
+                    </li>
+                    <li class="main_menu__item">
+                        <a href="#" class="main_menu__link">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn btn_blue" >Have Any Questions?</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main_page">
+        <div class="container">
+            <div class="main_page__info">
+                <p class="main_page__title"><img src="img/main_page/shest.png" alt="" class="main_page__title_img"> Improve our customers’ lives by providing effective solutions.</p>
+                <p class="main_page__header">A recognized leader in services industry</p>
+                <button class="btn btn_yellow">View Services</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="future">
+        <div class="container white_container" style="border: 1px solid red">
+            <div class="future_block">
+                <div class="future_img"><img src="img/future/future_img.jpg" alt=""></div>
+                <div class="future_info">
+                    <div class="section_title future_title">
+                        <img src="img/future/future_logo.png" alt="">Welcome BlueCollar
+                    </div>
+                    <div class="section_header future_header">We Provide Your Future</div>
+                    <p class="section_text future_text_1">Bluecollar Electrical services was established in 2008. We are trusted and reliable electricians who serve customers in the city as well as throughout United States Of America.</p>
+                    <p class="section_text future_text_2">We have extensive experience of domestic and business electrical installations and no job is too small. Our customers value our professionalism, work ethic and our competitive prices.</p>
+                    <div class="future_final">
+                        <div class="future_final_item_1">
+                            <p class="future_final_item_1_num">35</p>
+                            <p class="future_final_item_1_desc">Years Of Experience</p>
+                        </div>
+                        <ul class="future_final_item_2 section_text future_text_2">
+                            <li>- For all your system requirements</li>
+                            <li>- All work undertaken by qualified</li>
+                            <li>- Experienced office staff on hand</li>
+                            <li>- A Full Guarantee On Workmanship</li>
+                            <li>- Properties at a reasonable price.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main_services">
+        <div class="container">
+            <div class="main_services__block">
+                <div class="section_title main_services_title">
+                    <img src="img/future/future_logo.png" alt="">What We Offer
+                </div>
+                <div class="main_services__text">
+                    <div class="section_header services_header">Professional Main Services</div>
+                    <p class="section_text services_text">We have extensive experience of domestic and business electrical installations and no job is too small. Our customers value our professionalism, work ethic and our competitive prices.</p>
+                </div>
+                <div class="main_services_buttons" id="main_services_buttons">
+                    <button class="btn services_btn active_btn" data-item="commercial">Commercial</button>
+                    <button class="btn services_btn" data-item="residental">Residential</button>
+                    <button class="btn services_btn" data-item="industrial">Industrial</button>
+                </div>
+            </div>
+
+            <div class="services_descriptions">
+
+                <div class="services_items" data-info="commercial">
+                    <div class="services_item__left">
+                        <div class="services_description_item commercial_descriptions" data-services="commercial">
+                            <div class="section_title desc_services_title">
+                                <img src="img/future/future_logo.png" alt="">Electrical installation
+                            </div>
+                            <div class="desc_services__text">
+                                <div class="section_header ">Commercial</div>
+                                    <p class="section_text">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</p>
+                                    <p class="section_text">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</p>
+                            </div>
+                        </div>
+                       
+                        <button class="btn btn_yellow">Read More</button>
+                    </div>
+                    <div class="services_item__right">
+                        <img src="img/services/photo_1.jpg" alt="" data-services="commercial">
+                    </div>
+                </div>
+
+                <div class="services_items" data-info="residental">
+                    <div class="services_item__left">
+                        <div class="services_description_item commercial_descriptions" >
+                            <div class="section_title desc_services_title">
+                                <img src="img/future/future_logo.png" alt="">Electrical installation
+                            </div>
+                            <div class="desc_services__text">
+                                <div class="section_header ">Commercial</div>
+                                    <p class="section_text">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</p>
+                                    <p class="section_text">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</p>
+                            </div>
+                        </div>
+                        <div class="services_description_item residental_descriptions hidden" data-services="residental">
+                            <div class="section_title desc_services_title">
+                                <img src="img/future/future_logo.png" alt="">Electrical installation
+                            </div>
+                            <div class="desc_services__text">
+                                <div class="section_header ">Residential</div>
+                                    <p class="section_text">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</p>
+                                    <p class="section_text">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</p>
+                            </div>
+                        </div>
+                        <div class="services_description_item industrial_descriptions hidden" data-services="industrial">
+                            <div class="section_title desc_services_title">
+                                <img src="img/future/future_logo.png" alt="">Electrical installation
+                            </div>
+                            <div class="desc_services__text">
+                                <div class="section_header ">Industrial</div>
+                                    <p class="section_text">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</p>
+                                    <p class="section_text">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</p>
+                            </div>
+                        </div>
+                        <button class="btn btn_yellow">Read More</button>
+                    </div>
+                    <div class="services_item__right">
+                        <img src="img/services/photo_1.jpg" alt="" data-services="commercial">
+                        <img src="img/services/photo_1.jpg" alt="" data-services="residental" class="hidden">
+                        <img src="img/services/photo_1.jpg" alt="" data-services="industrial" class="hidden">
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="srv">
+        <div class="container srv_container">
+            Area Of Service
+            Our Services
+            We offers a comprehensive range of electrical services for domestic and commercial properties at a reasonable price.
+            Air condition service
+            Electrical installation
+            General Builder
+            Services are able to service your entire electrical infrastructure from Thermal Imaging of your air condition from switch boards.
+            The art electrical installations that provide all the necessary electrical solutions to suit your business, home or industrial premises.
+            We provide impeccable safety assessments to both commercial, residential properties. Our adept & knowledgeable electricians.
+            View More
+            View More
+            View More
+            Security System
+            Service & maintenance
+            House Extensions
+            Utilized for measuring flow, temperature level & pressure in the manufacturing industry array of technology is ensure productivity.
+            Electrical Services are able to service your entire electrical infrastructure from Thermal Imaging of your switch boards.
+            Traditionally, electricity is supplied through overhead network poles, where the cable is connected to your building.
+            View More
+            View More
+            View More
+        </div>
+    </section>
+
+    <section class="reasons">
+        Why Choose Us
+        Few Reasons Why You Should Choose Us
+        We are offering the following information's about us that what we actually do in the electrical sector. To Improve our customers’ lives by providing creative and cost-effective solutions to their needs.
+        35 Years Experience
+        Effective communication is the key to success for any business. From our office staff, to our field.
+        Excellence Certificate
+        We understand fully that your time is of extreme value. We are committed to meeting deadlines.
+        Affordable Price
+        We adhere strictly to the current National Electrical Code, and we conduct regular in-house sessions.
+    </section>
+
+    <section class="projects">
+        The Gallery
+Our Recent Projects
+Fiber cable change
+Industry machine issue
+Wheel Alloy Change
+Roof Cleaning
+Commercial
+Residential
+Commercial
+Industry
+    </section>
+
+    <section class="feedback">
+        Testimonial
+Meet Us
+Customers Says
+Appointment Form
+Nancy luther
+Steve Harvy
+NewYork
+NewYork
+Your name
+Your name
+We have had several good experiences with Blue Collar team. Most recently, they replaced our 20-year-old HVAC system with a new, modern, and more efficient system & it worked fine. 
+I had them replace a fuse panel with a breaker panel and the
+job was done exactly
+Your email
+when they said it would be done & at the cost, they quoted. The
+installer was prompt & dressed neatly.
+Phone Number
+Date
+Service Description
+Any Question
+99.9% Customer Satisfaction Based
+If you have any questions or need help contact with our team, or call
+(003) 123 456 7890
+Submit
+    </section>
+
+    <section class="big_clients">
+        Clients
+Our Trusted Big Clients!
+    </section>
+
+    <section class="customize">
+        Price Plan
+Let’s Customize Work With Affordable Price
+This is passionate about delivering growth and the new possibilities in the field of electrical services. We have extensive experience of domestic and business electrical installations and no job is too small.
+Basic Plan
+Standard
+Popular
+Professional
+$ 599.00
+Per Visit Charge
+$ 699.00
+Per Visit Charge
+$ 799.00
+Per Visit Charge
+Electrical Service
+PLC Controls
+Cable Tray Installations
+Distribution Power Systemss
+Conveyor systems
+Wiring Upgrades
+High & Medium Voltages
+Wiring renovations
+Energy Efficient Lighting
+Industrial Control Systems
+Electric Water Heater Repair
+Emergency Generating
+Switch Installation
+Service And Panel Upgrades
+Pools And Hot Tubs
+Generator Installations
+Efficient Lighting Solutions
+Air Conditioning Units
+Innovative Construction
+Site lighting
+Generating Systems
+Buy Now
+Buy Now
+Buy Now
+Affordable Price
+Fixed Plan
+We adhere strictly to the current National Electrical Code, and we conduct regular in-house sessions with our technicians to review any code changes and applications.
+We understand fully that your time is of extreme value. You will never have to worry about waiting around for our trained technicians.24/7 Service Providers Affordable Price.
+    </section>
+
+    <section class="news">
+        Stay Updated
+Latest News & Articles
+Alex Louis
+April 16, 2022
+John Christin
+April 16, 2022
+How Outside Lighting can Transform Your Summer Garden
+Easy Energy Saving Solutions for Industrial Businesses
+Capitalize on low-hanging fruit to identify a ballpark value added matrix economically activity to beta test override the multiple touchpoints for offshoring the digital divide with DevOps.
+Strategies on low-hanging fruit to identify a ballpark value added activity matrix economically to beta test override multiple touchpoints for offshoring the digital divide with DevOps.
+View More
+View More
+    </section>
+
+    <section class="subscribe">
+        Subscribe Our Newsletter
+Enter your email address
+Subscribe
+Stay in touch with us to get latest news. We are here to fit the needs of your electrical services for your dream building.
+    </section>
+
+    <footer class="footer">
+        Mail Us
+Call Us
+Location
+Info@bluecollar.com
++01 569 896 654
+Amsterdam, 109-74
+Explore
+Quick Links
+Utility Pages
+We are here to fit the needs of your basic services for your dream building whether its a commercial, residential or industry.
+About Us
+Home
+Style Guide
+Pricing
+Services
+Changelog
+Team
+Service Single
+Licenses
+Blog
+Projects
+Protected Page
+Contact Us
+Projects Single
+404 Page
+Copyright © BlueCollar | Designed by
+VictorFlow
+- Powered by
+Webflow.
+    </footer>
+</body>
+</html>
