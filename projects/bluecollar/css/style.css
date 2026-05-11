@@ -79,6 +79,7 @@ body {
     align-items: center;
     column-gap: 10px;
     margin-bottom: 22px;
+    text-transform: capitalize;
 }
 .section_text{
     line-height: 1.5;
@@ -301,12 +302,14 @@ body {
     position: relative;
     z-index: 2;
 }
-.services_items{
+.service_item{
+    display: none;
+}
+.services_item_active{
     display: flex;
     column-gap: 60px;
     align-items: center;
-    padding: 60px 60px 0px 60px;
-    height: 408px;
+    padding: 60px;
 }
 
 .services_item__left{

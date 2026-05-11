@@ -34,12 +34,23 @@ function setActiveLink(){
  */
 function handleServicesButton(){
     const buttonsBlock = document.getElementById('main_services_buttons')
+    const descriptions = document.getElementsByClassName('service_item')
+    console.log(descriptions)
     if (buttonsBlock){
         const buttons = buttonsBlock.querySelectorAll('.btn');
         buttonsBlock.addEventListener('click', (event) => {
             const activeButton = event.target;
             if (activeButton.classList.contains('btn')){
-                
+                for (const button of buttons){
+                    button.classList.remove('active_btn')
+                }
+                activeButton.classList.add('active_btn')
+                for (const description of descriptions){
+                    description.classList.remove('services_item_active')
+                    if (activeButton.dataset.item == description.dataset.info){
+                        description.classList.add('services_item_active')
+                    }
+                }
             }
         })
     }
@@ -48,5 +59,6 @@ function handleServicesButton(){
 
 document.addEventListener("DOMContentLoaded", function () {
     loadSvgSprite();
-    setActiveLink()
+    setActiveLink();
+    handleServicesButton();
 });
