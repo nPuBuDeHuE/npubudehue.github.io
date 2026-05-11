@@ -1,7 +1,7 @@
 export const LANG = {
     es: {
         "html_title": "Toros: Carpeta de trabajos",
-        "menu_alias":"Vitaly 'Toros' Bykov",
+        "menu_alias":"Vitaly 'Toro' Bykov",
         "menu_work": "Mis trabajos",
         "menu_info": "Información",
         "about_me":"<p>¡Hola! Soy Vitali.</p><p>Me dedico al desarrollo frontend y a la maquetación de páginas web a partir de diseños (no soy diseñador).</p><p>Mi apellido 'Býkov' significa 'Toro', por eso tengo este alias y avatar :)</p><p>Aquí hay ejemplos de mi trabajo y mis datos de contacto.</p><p>¡Escríbeme, estaré encantado de ayudar!</p>",
@@ -19,7 +19,7 @@ export const LANG = {
     }, 
     ru: {
         "html_title": "Toros: Портфолио",
-        "menu_alias":"Виталий 'Toros' Быков",
+        "menu_alias":"Виталий 'Toro' Быков",
         "menu_work": "Мои работы",
         "menu_info": "Информация",
         "about_me":"<p>Привет! Я - Виталий.</p><p>Я frontend-разработчик и html-верстальщик (не дизайнер).</p><p>Мне нравится Испания и испанский язык, поэтому я взял ник, который перекликается с моей фамилией (toro по-испански - бык :)</p><p>Здесь представлены мои работы. Если вам нужна помощь с версткой - я готов помочь.</p>",
