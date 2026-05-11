@@ -301,6 +301,7 @@ body {
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    box-shadow: -1px 6px 18px 0 rgba(0,0,0, 0.09);
 }
 .service_item{
     display: none;
