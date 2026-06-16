@@ -15,7 +15,9 @@ export const LANG = {
         "footer_figma": "Maquetado a partir de Figma",
         "restaurant": "Bienvenido al restaurante",
         "createx":"Empresa constructora",
-        "muebles":"Tienda de muebles"
+        "muebles":"Tienda de muebles",
+        "ideal": "Hay que hacerlo perfectamente",
+        "necesario" : "Lo necesitas"
     }, 
     ru: {
         "html_title": "Toros: Портфолио",
@@ -33,6 +35,8 @@ export const LANG = {
         "footer_figma": "Свёрстано по макету Figma",
         "restaurant": "Добро пожаловать в ресторан",
         "createx":"Строительная фирма",
-        "muebles":"Магазин мебели"
+        "muebles":"Магазин мебели",
+        "ideal": "Надо сделать идеально",
+        "necesario": "Оно тебе надо"
     }
 }
